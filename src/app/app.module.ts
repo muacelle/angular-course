@@ -11,6 +11,7 @@ import { ListRenderComponent } from './list-render/list-render.component';
 import { PersonalizedComponentComponent } from './personalized-component/personalized-component.component';
 import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
 import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
+import { ExemploServicoComponent } from './exemplo-servico/exemplo-servico.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ComponenteFilhoComponent } from './componente-filho/componente-filho.co
     ListRenderComponent,
     PersonalizedComponentComponent,
     ComponentePaiComponent,
-    ComponenteFilhoComponent
+    ComponenteFilhoComponent,
+    ExemploServicoComponent
   ],
   imports: [
     BrowserModule,
