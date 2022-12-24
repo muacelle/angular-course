@@ -9,6 +9,8 @@ import { SecondComponentComponent } from './second-component/second-component.co
 import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
 import { ListRenderComponent } from './list-render/list-render.component';
 import { PersonalizedComponentComponent } from './personalized-component/personalized-component.component';
+import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
+import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { PersonalizedComponentComponent } from './personalized-component/persona
     SecondComponentComponent,
     TwoWayDataBindingComponent,
     ListRenderComponent,
-    PersonalizedComponentComponent
+    PersonalizedComponentComponent,
+    ComponentePaiComponent,
+    ComponenteFilhoComponent
   ],
   imports: [
     BrowserModule,
