@@ -8,6 +8,7 @@ import { FirstComponentComponent } from './first-component/first-component.compo
 import { SecondComponentComponent } from './second-component/second-component.component';
 import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
 import { ListRenderComponent } from './list-render/list-render.component';
+import { PersonalizedComponentComponent } from './personalized-component/personalized-component.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ListRenderComponent } from './list-render/list-render.component';
     FirstComponentComponent,
     SecondComponentComponent,
     TwoWayDataBindingComponent,
-    ListRenderComponent
+    ListRenderComponent,
+    PersonalizedComponentComponent
   ],
   imports: [
     BrowserModule,
