@@ -12,6 +12,7 @@ import { PersonalizedComponentComponent } from './personalized-component/persona
 import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
 import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
 import { ExemploServicoComponent } from './exemplo-servico/exemplo-servico.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ExemploServicoComponent } from './exemplo-servico/exemplo-servico.compo
     PersonalizedComponentComponent,
     ComponentePaiComponent,
     ComponenteFilhoComponent,
-    ExemploServicoComponent
+    ExemploServicoComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
